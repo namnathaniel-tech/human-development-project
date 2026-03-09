@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journey of a Lifetime: Human Growth & Development</title>
+    <meta name="description" content="Explore the core stages and key psychological theories of human development.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+
+    <nav class="navbar hidden">
+        <div class="logo">Growth<span>Journey</span></div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#stages">Stages of Life</a></li>
+            <li><a href="#theories">Development Theories</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Full Screen Title Section -->
+        <header id="hero" class="title-screen">
+            <div class="title-content align-center">
+                <span class="badge pulse-badge">Intro to Healthcare Project</span>
+                <h1 class="hero-title">The Masterpiece of <br /><span class="gradient-text">Human Development</span>
+                </h1>
+                <p class="hero-subtitle">A journey through physical, cognitive, and psychosocial growth.</p>
+                <div class="project-info"
+                    style="margin-top: 2rem; color: var(--text-secondary); font-size: 1.1rem; font-weight: 500;">
+                    <p>By Nathaniel and Aadi</p>
+                </div>
+                <div class="scroll-indicator">
+                    <p>Scroll to Explore</p>
+                    <div class="arrow bounce">↓</div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Information Screens below -->
+        <div class="info-content" id="info-content">
+            <!-- Core Stages Section -->
+            <section id="stages" class="stages section reveal">
+                <div class="section-header">
+                    <h2>The Stages of Life</h2>
+                    <p>The predictable patterns of growth from conception to late adulthood.</p>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline-item reveal" onclick="this.classList.toggle('expanded')">
+                        <div class="timeline-content glass-card hover-glow">
+                            <div class="stage-tag">Infancy</div>
+                            <h3>The Foundation (0-2 Years)</h3>
+                            <p class="summary-text">Rapid physical growth, foundational sensory learning, and
+                                the critical formation of attachment to caregivers.</p>
+                            <div class="expanded-details">
+                                <ul>
+                                    <li><strong>Physical:</strong> Dramatic growth in height and weight; development of
+                                        basic motor skills like crawling and walking.</li>
+                                    <li><strong>Mental:</strong> Sensorimotor learning; exploring the world through
+                                        senses and actions; development of object permanence.</li>
+                                    <li><strong>Emotional:</strong> Expressing basic emotions (joy, anger, fear);
+                                        formation of initial, deep-rooted attachments.</li>
+                                    <li><strong>Social:</strong> Interactions primarily with parents/caregivers;
+                                        developing a basic sense of trust vs. mistrust.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal" onclick="this.classList.toggle('expanded')">
+                        <div class="timeline-content glass-card hover-glow">
+                            <div class="stage-tag">Early Childhood</div>
+                            <h3>Play & Imagination (2-6 Years)</h3>
+                            <p class="summary-text">Expanding language, vivid imagination, and the assertion of
+                                independence through structured and unstructured play.</p>
+                            <div class="expanded-details">
+                                <ul>
+                                    <li><strong>Physical:</strong> Slower, steadier growth; significant refinement of
+                                        gross and fine motor skills (running, drawing).</li>
+                                    <li><strong>Mental:</strong> Preoperational thought; language explosion; highly
+                                        imaginative but egocentric thinking.</li>
+                                    <li><strong>Emotional:</strong> Learning early emotion regulation; beginning to
+                                        experience complex emotions like guilt and pride.</li>
+                                    <li><strong>Social:</strong> Increasing interest in peer play; asserting autonomy
+                                        and initiative; learning to share.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal" onclick="this.classList.toggle('expanded')">
+                        <div class="timeline-content glass-card hover-glow">
+                            <div class="stage-tag">Late Childhood</div>
+                            <h3>Industry & Mastery (6-12 Years)</h3>
+                            <p class="summary-text">Focus shifts dramatically to mastering academic skills, playing
+                                structured games, and expanding social circles.</p>
+                            <div class="expanded-details">
+                                <ul>
+                                    <li><strong>Physical:</strong> Steady growth; marked improvements in strength,
+                                        physical coordination, and stamina.</li>
+                                    <li><strong>Mental:</strong> Concrete operational thought; ability to use logic to
+                                        solve concrete, real-world problems.</li>
+                                    <li><strong>Emotional:</strong> Gaining a sense of competence; self-esteem becomes
+                                        heavily influenced by peers and academic success.</li>
+                                    <li><strong>Social:</strong> Friendships become increasingly important and complex;
+                                        peer groups are often same-sex.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal" onclick="this.classList.toggle('expanded')">
+                        <div class="timeline-content glass-card hover-glow">
+                            <div class="stage-tag">Adolescence</div>
+                            <h3>Identity & Transition (12-18 Years)</h3>
+                            <p class="summary-text">Puberty brings dramatic physical changes accompanied by a deep,
+                                challenging search for personal identity.</p>
+                            <div class="expanded-details">
+                                <ul>
+                                    <li><strong>Physical:</strong> Onset of puberty leading to sexual maturity; rapid
+                                        growth spurt; significant prefrontal cortex remodeling.</li>
+                                    <li><strong>Mental:</strong> Emergence of formal operational thought; ability to
+                                        think abstractly, idealistically, and hypothetically.</li>
+                                    <li><strong>Emotional:</strong> Intense mood shifts influenced by hormones;
+                                        navigating the complex crisis of establishing a coherent self-identity.</li>
+                                    <li><strong>Social:</strong> Seeking autonomy and psychological distance from
+                                        parents; extreme reliance on peer groups for validation.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal" onclick="this.classList.toggle('expanded')">
+                        <div class="timeline-content glass-card hover-glow">
+                            <div class="stage-tag">Early Adulthood</div>
+                            <h3>Connections & Career (18-40 Years)</h3>
+                            <p class="summary-text">Peak physical condition, with a primary focus on establishing
+                                intimacy, family structures, and launching careers.</p>
+                            <div class="expanded-details">
+                                <ul>
+                                    <li><strong>Physical:</strong> Peak physical performance, strength, and stamina;
+                                        generally a period of robust health and fertility.</li>
+                                    <li><strong>Mental:</strong> Advanced, pragmatic problem-solving; cognitive focus
+                                        zeroes in on applying knowledge to career and life goals.</li>
+                                    <li><strong>Emotional:</strong> Navigating the deep desire to form strong,
+                                        meaningful intimate relationships; learning to balance personal needs with
+                                        partners.</li>
+                                    <li><strong>Social:</strong> Expanding professional networks; marrying or forming
+                                        long-term partnerships; often starting families.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal" onclick="this.classList.toggle('expanded')">
+                        <div class="timeline-content glass-card hover-glow">
+                            <div class="stage-tag">Middle Adulthood</div>
+                            <h3>Legacy & Generativity (40-65 Years)</h3>
+                            <p class="summary-text">A period heavily focused on generativity—raising children, mentoring
+                                younger generations, and contributing to society.</p>
+                            <div class="expanded-details">
+                                <ul>
+                                    <li><strong>Physical:</strong> Gradual decline in physical capacities (e.g., vision,
+                                        metabolism); visible signs of aging emerge (wrinkles, graying).</li>
+                                    <li><strong>Mental:</strong> High practical intelligence; crystallized intelligence
+                                        (accumulated knowledge) peaks; expertise in chosen fields.</li>
+                                    <li><strong>Emotional:</strong> Seeking overarching purpose and meaning in life's
+                                        work; potentially experiencing a "midlife crisis" or reassessment of goals.</li>
+                                    <li><strong>Social:</strong> Focus shifts to the "sandwich generation" demands:
+                                        caring for growing children and aging parents simultaneously.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal" onclick="this.classList.toggle('expanded')">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card hover-glow">
+                            <div class="stage-tag">Late Adulthood</div>
+                            <h3>Wisdom & Reflection (65+ Years)</h3>
+                            <p class="summary-text">Adjusting to the realities of aging and retirement, characterized by
+                                reflecting on life overall to attain wisdom.</p>
+                            <div class="expanded-details">
+                                <ul>
+                                    <li><strong>Physical:</strong> Noticeable decline in physical strength, sensory
+                                        acuity, and immune system function; managing chronic conditions.</li>
+                                    <li><strong>Mental:</strong> Potential decline in cognitive processing and reaction
+                                        speed, but crystallized intelligence (wisdom) remains high.</li>
+                                    <li><strong>Emotional:</strong> Reflecting on life achievements and failures;
+                                        attaining a sense of integrity and fulfillment over despair.</li>
+                                    <li><strong>Social:</strong> Adjusting to retirement; potential loss of spouses or
+                                        long-time peers; focusing closely on family legacy and grandchildren.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Theories Section -->
+            <section id="theories" class="theories section reveal">
+                <div class="section-header">
+                    <h2>Key Psychological Theories</h2>
+                    <p>Frameworks that explain how we grow cognitively and psychosocially.</p>
+                </div>
+
+                <div class="tabs-container">
+                    <div class="tabs-header">
+                        <button class="tab-btn active" data-tab="erikson">Erikson: Psychosocial</button>
+                        <button class="tab-btn" data-tab="maslow">Maslow: Needs</button>
+                    </div>
+
+                    <div class="tab-content" id="tab-erikson">
+                        <div class="theory-grid">
+                            <div class="theory-intro glass-card">
+                                <h3>Erik Erikson's 8 Stages</h3>
+                                <p>Erikson proposed that development consists of an 8-stage lifespan model. At each
+                                    stage, a
+                                    person faces a psychosocial crisis. Resolving it leads to a core virtue.</p>
+                            </div>
+                            <div class="theory-cards">
+                                <div class="t-card">
+                                    <h4>1. Trust vs. Mistrust</h4>
+                                    <span class="age">0-18 mo | Virtue: Hope</span>
+                                    <p><strong>Relationship:</strong> Maternal Person/Caregiver</p>
+                                    <p>Infants learn to trust when caregivers meet needs consistently.</p>
+                                    <p class="rubric-example"><strong>Example:</strong> An infant crying is fed and
+                                        comforted, teaching them the world is a safe, dependable place.</p>
+                                </div>
+                                <div class="t-card">
+                                    <h4>2. Autonomy vs. Shame</h4>
+                                    <span class="age">1.5-3 yr | Virtue: Will</span>
+                                    <p><strong>Relationship:</strong> Paternal Persons (Parents)</p>
+                                    <p>Toddlers assert independence and basic control over physical skills.</p>
+                                    <p class="rubric-example"><strong>Example:</strong> A toddler is allowed to choose
+                                        their own clothes and dress themselves, developing a sense of independence.</p>
+                                </div>
+                                <div class="t-card">
+                                    <h4>3. Initiative vs. Guilt</h4>
+                                    <span class="age">3-6 yr | Virtue: Purpose</span>
+                                    <p><strong>Relationship:</strong> Basic Family</p>
+                                    <p>Preschoolers experiment through play, directing play and social interaction.</p>
+                                    <p class="rubric-example"><strong>Example:</strong> A child organizes a game of
+                                        make-believe with peers, gaining a sense of purpose and leadership.</p>
+                                </div>
+                                <div class="t-card">
+                                    <h4>4. Industry vs. Inferiority</h4>
+                                    <span class="age">6-12 yr | Virtue: Competence</span>
+                                    <p><strong>Relationship:</strong> Neighborhood, School</p>
+                                    <p>Children focus on mastering complex academic and social skills.</p>
+                                    <p class="rubric-example"><strong>Example:</strong> A school-age child successfully
+                                        completes a complex science project, reinforcing feeling of competence.</p>
+                                </div>
+                                <div class="t-card">
+                                    <h4>5. Identity vs. Confusion</h4>
+                                    <span class="age">12-18 yr | Virtue: Fidelity</span>
+                                    <p><strong>Relationship:</strong> Peer Groups, Role Models</p>
+                                    <p>Teens search for a sense of self and personal identity.</p>
+                                    <p class="rubric-example"><strong>Example:</strong> A teenager explores different
+                                        social, political, or career interests before settling on a strong sense of
+                                        personal identity.</p>
+                                </div>
+                                <div class="t-card">
+                                    <h4>6. Intimacy vs. Isolation</h4>
+                                    <span class="age">Young Adult | Virtue: Love</span>
+                                    <p><strong>Relationship:</strong> Partners, Close Friends</p>
+                                    <p>Desire to form deep, meaningful, and committed relationships.</p>
+                                    <p class="rubric-example"><strong>Example:</strong> A young adult forms a committed
+                                        romantic partnership or cultivates a close network of supportive friends.</p>
+                                </div>
+                                <div class="t-card">
+                                    <h4>7. Generativity vs. Stagnation</h4>
+                                    <span class="age">Middle Adult | Virtue: Care</span>
+                                    <p><strong>Relationship:</strong> Household, Workmates</p>
+                                    <p>Focus on career, family, and contributing to society.</p>
+                                    <p class="rubric-example"><strong>Example:</strong> A middle-aged adult mentors
+                                        younger employees at work or raises a child, contributing positively to the next
+                                        generation.</p>
+                                </div>
+                                <div class="t-card">
+                                    <h4>8. Integrity vs. Despair</h4>
+                                    <span class="age">Late Adult | Virtue: Wisdom</span>
+                                    <p><strong>Relationship:</strong> Mankind, My Kind</p>
+                                    <p>Reflecting on life, seeking a sense of fulfillment and closure.</p>
+                                    <p class="rubric-example"><strong>Example:</strong> An older adult reflects on their
+                                        life with satisfaction, feeling a deep sense of wisdom and fulfillment despite
+                                        past struggles.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="tab-content hidden" id="tab-maslow">
+                    <div class="theory-grid">
+                        <div class="theory-intro glass-card border-accent">
+                            <h3>Abraham Maslow's Hierarchy of Needs</h3>
+                            <p>Maslow proposed that human actions are directed toward goal attainment, organized in a
+                                hierarchy from basic physiological needs up to self-actualization.</p>
+                        </div>
+                        <div class="theory-cards" style="grid-template-columns: 1fr;">
+                            <div class="t-card border-accent-left">
+                                <h4>1. Physiological Needs</h4>
+                                <p>Air, water, food, shelter, sleep, clothing, and reproduction.</p>
+                                <p><strong>Real Life Example:</strong> Ensuring you have adequate food and a safe place
+                                    to sleep before you can focus on making friends or thriving at school.</p>
+                            </div>
+                            <div class="t-card border-accent-left">
+                                <h4>2. Safety Needs</h4>
+                                <p>Personal security, employment, resources, health, and property.</p>
+                                <p><strong>Real Life Example:</strong> Securing a steady job and health insurance to
+                                    feel financially and physically secure in daily life.</p>
+                            </div>
+                            <div class="t-card border-accent-left">
+                                <h4>3. Love and Belonging</h4>
+                                <p>Friendship, intimacy, family, and a sense of connection.</p>
+                                <p><strong>Real Life Example:</strong> Joining a club, sports team, or maintaining close
+                                    family ties to feel accepted and part of a community.</p>
+                            </div>
+                            <div class="t-card border-accent-left">
+                                <h4>4. Esteem</h4>
+                                <p>Respect, self-esteem, status, recognition, strength, and freedom.</p>
+                                <p><strong>Real Life Example:</strong> Getting a promotion at work, which provides a
+                                    profound sense of accomplishment and recognition from peers.</p>
+                            </div>
+                            <div class="t-card border-accent-left">
+                                <h4>5. Self-Actualization</h4>
+                                <p>The desire to become the most that one can be.</p>
+                                <p><strong>Real Life Example:</strong> Pursuing a passion project like writing a book or
+                                    mastering an art form simply for deep inner fulfillment.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </div>
+
+        <!-- Healthcare Application Section -->
+        <section id="healthcare" class="healthcare section reveal">
+            <div class="section-header">
+                <h2>Application to Healthcare</h2>
+                <p>Focusing on the unique healthcare needs of Late Adulthood.</p>
+            </div>
+            <div class="glass-card" style="max-width: 800px; margin: 0 auto; padding: 30px; text-align: left;">
+                <h3 style="margin-bottom: 15px;">Healthcare Considerations for Late Adulthood (65+ Years)</h3>
+                <p style="margin-bottom: 20px; color: var(--text-secondary); line-height: 1.6;">As individuals enter
+                    late adulthood, their healthcare needs shift significantly. Medical professionals must adapt their
+                    approach to effectively care for this demographic.</p>
+                <ul style="list-style-type: disc; padding-left: 20px; color: var(--text-secondary); line-height: 1.6;">
+                    <li style="margin-bottom: 10px;"><strong>Chronic Condition Management:</strong> High prevalence of
+                        chronic diseases (e.g., arthritis, hypertension, diabetes, heart disease). Healthcare shifts to
+                        managing these conditions to maintain quality of life.</li>
+                    <li style="margin-bottom: 10px;"><strong>Polypharmacy Risks:</strong> Older adults often take
+                        multiple medications. Providers must carefully monitor drug interactions and metabolism changes
+                        due to aging organs.</li>
+                    <li style="margin-bottom: 10px;"><strong>Fall Prevention & Mobility:</strong> Decreased bone density
+                        and muscle mass make falls dangerous. Healthcare includes physical therapy, home safety
+                        assessments, and mobility aids.</li>
+                    <li style="margin-bottom: 10px;"><strong>Cognitive Monitoring:</strong> Routine screening for
+                        cognitive decline and Alzheimer's disease becomes critical. Communication must be clear,
+                        patient, and often include caregivers or family members.</li>
+                    <li style="margin-bottom: 10px;"><strong>Psychosocial Support:</strong> Addressing potential
+                        isolation, depression from the loss of peers/spouses, and end-of-life care planning (advance
+                        directives).</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Biography Section -->
+        <section id="biography" class="biography section reveal">
+            <div class="section-header">
+                <h2>The Theorist Behind the Hierarchy</h2>
+                <p>A brief biography of Abraham Maslow.</p>
+            </div>
+            <div class="glass-card bio-card" style="max-width: 800px; margin: 0 auto; padding: 30px; text-align: left;">
+                <h3 style="margin-bottom: 5px;">Abraham Harold Maslow</h3>
+                <p style="color: var(--accent-primary); font-weight: bold; margin-bottom: 20px;">April 1, 1908 – June 8,
+                    1970</p>
+                <p style="margin-bottom: 15px; color: var(--text-secondary); line-height: 1.6;">
+                    <strong>Education:</strong> Educated at the City College of New York and the University of
+                    Wisconsin, where he earned his BA, MA, and PhD in Psychology.
+                </p>
+                <p style="margin-bottom: 15px; color: var(--text-secondary); line-height: 1.6;">
+                    <strong>Accomplishments:</strong> A pioneer of humanistic psychology. Created Maslow's Hierarchy of
+                    Needs, profoundly shifting the focus of psychology from abnormal behavior to positive mental health
+                    and human potential.
+                </p>
+                <p style="color: var(--text-secondary); line-height: 1.6;"><strong>Interesting Fact:</strong> Maslow
+                    originally studied law at the urging of his parents before switching to psychology to pursue his own
+                    interests. He also spent time studying the Blackfoot Indians in Canada, which influenced his ideas
+                    regarding self-actualization and social structures.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>Created for Human Growth & Development Psychological Study.</p>
+            <p class="sources">References: SimplyPsychology, Edutopia, APA, and Erikson/Piaget core texts.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
